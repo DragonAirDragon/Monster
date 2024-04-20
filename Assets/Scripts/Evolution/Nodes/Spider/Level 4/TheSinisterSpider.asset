@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: TheSinisterSpider
+  m_EditorClassIdentifier: 
+  name: "\u0417\u043B\u043E\u0432\u0435\u0449\u0438\u0439 \u043F\u0430\u0443\u043A"
+  damage: 0
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 909e6ab28c81c134f8075072424eb0a3, type: 2}
+    typeFood: 3
+  - evolutionNode: {fileID: 11400000, guid: 921df04ccc7a1794fbfe0638562dca35, type: 2}
+    typeFood: 5

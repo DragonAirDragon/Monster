@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: CrystalSlime
+  m_EditorClassIdentifier: 
+  name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0421\u043B\u0430\u0439\u043C"
+  damage: 0
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 7571971f872c86d47bc41203c9735b29, type: 2}
+    typeFood: 2
+  - evolutionNode: {fileID: 11400000, guid: 26059b522a98e4545b6437dc72004b0f, type: 2}
+    typeFood: 3

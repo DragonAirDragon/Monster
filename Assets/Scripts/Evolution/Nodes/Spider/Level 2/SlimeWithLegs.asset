@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: SlimeWithLegs
+  m_EditorClassIdentifier: 
+  name: "\u0421\u043B\u0438\u0437\u044C \u0441 \u041B\u0430\u043F\u043A\u0430\u043C\u0438"
+  damage: 0
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 8873625e2b221f54d8bfeb93252489bc, type: 2}
+    typeFood: 1
+  - evolutionNode: {fileID: 11400000, guid: b1ff312c268b1e24da9a3f08ed8a656c, type: 2}
+    typeFood: 2
+  - evolutionNode: {fileID: 11400000, guid: 648b7d39dd88d5f4191bf599ac713ac2, type: 2}
+    typeFood: 4
+  - evolutionNode: {fileID: 11400000, guid: 7e8a6fbb2728b4e4f965b27f345504be, type: 2}
+    typeFood: 5

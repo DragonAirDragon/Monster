@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Eat
+  - Entity
+  - Cocon
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - Object
   - Enemy
   - Food
-  - 
+  - Exit
   - 
   - 
   - 

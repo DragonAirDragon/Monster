@@ -143,5 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7f4c4f6b217ed499338afd3bd15da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEating: 0
-  valueFood: 101
+  isEating: {fileID: 0}
+  valueFood: 50

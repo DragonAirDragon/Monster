@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: BigSpider
+  m_EditorClassIdentifier: 
+  name: "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u041F\u0430\u0443\u043A"
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 0ff291e7f27a4a54baba333029d16745, type: 2}
+    typeFood: 0
+  - evolutionNode: {fileID: 11400000, guid: 3309a9513f24b2241be00c2686a6df15, type: 2}
+    typeFood: 3
+  - evolutionNode: {fileID: 11400000, guid: cacfc9aa4ea38534c9987706c1a2c038, type: 2}
+    typeFood: 5
+  idleRight: {fileID: 7400000, guid: d78f5aa8503a6f4439bab92f0cc21c35, type: 2}
+  idleLeft: {fileID: 7400000, guid: fbabedc1fea279b4ea3bad75eabd8a7e, type: 2}
+  attackRight: {fileID: 7400000, guid: 6057c3b65d46b54478de81a5a701bd08, type: 2}
+  attackLeft: {fileID: 7400000, guid: 0641bb5b00ed1914d8e411ea033828ab, type: 2}
+  walkRight: {fileID: 7400000, guid: cf6e20e825606d647bdf9fc556735b00, type: 2}
+  walkLeft: {fileID: 7400000, guid: c8b87ed697f85834aaf12708aa81e229, type: 2}
+  eatRight: {fileID: 7400000, guid: ed1ce76b13264814286c26935969c571, type: 2}
+  eatLeft: {fileID: 7400000, guid: b933f4c32cba37b4ebe2f4953a7b21a8, type: 2}
+  currentMaterial: {fileID: 2100000, guid: fe8ff8efe01400149bb88699c37d9be7, type: 2}
+  currentSprite: {fileID: -7007361450005295813, guid: 65bf6c5ed570c9840902eb205894e9b1, type: 3}
+  typeFoodDrop: 0
+  countFoodDrop: 50
+  damage: 5
+  hp: 20
+  attackAttribute:
+  - damageType: 0
+    percent: 0
+  - damageType: 1
+    percent: 0
+  - damageType: 2
+    percent: 2
+  - damageType: 3
+    percent: 0
+  protectionAttribute:
+  - damageType: 0
+    percent: 1
+  - damageType: 1
+    percent: 1
+  - damageType: 2
+    percent: 1
+  - damageType: 3
+    percent: 1
+  rangedAttack: 0
+  projectile: {fileID: 0}
+  radiusVisible: 10
+  radiusAttack: 2
+  projectileSpeed: 0

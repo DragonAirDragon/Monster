@@ -1,36 +1,35 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using FSM.Cocon;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CoconPresenter : MonoBehaviour
+namespace Presenters
 {
-    [SerializeField] private Image foodImageProgress;
-
-    [SerializeField] private AICocon cocon;
-    // Start is called before the first frame update
-    private void Awake()
+    public class CoconPresenter : MonoBehaviour
     {
+        [SerializeField] private Image foodImageProgress;
+        [SerializeField] private Image HPBar;
+        [SerializeField] private AICocon cocon;
+        [SerializeField] private TextMeshProUGUI levelText;
+        // Start is called before the first frame update
+        private void Awake()
+        {
         
-        cocon.FoodChanged += UpdateFoodBar;
+            cocon.FoodChanged += UpdateFoodBar;
+            cocon.FoodChanged += UpdateLevelUI;
+            cocon.HpChanged += UpdateHpUI;
+        }
+        private void UpdateFoodBar()
+        {
+            foodImageProgress.fillAmount = cocon.GetFoodProcent();
+        }
+        private void UpdateLevelUI()
+        {
+            levelText.text = "Уровень " + cocon.GetCurrentLevel().ToString();
+        }
+        public void UpdateHpUI()
+        {
+            HPBar.fillAmount = cocon.GetHpPercent();
+        }
     }
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void UpdateFoodBar()
-    {
-        foodImageProgress.fillAmount = cocon.getFoodProcent();
-    }
-    
 }

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: Cat
+  m_EditorClassIdentifier: 
+  name: "\u041A\u043E\u0442"
+  damage: 0
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 387630157de95a14683a2841e2196f22, type: 2}
+    typeFood: 0
+  - evolutionNode: {fileID: 11400000, guid: 7af4c537741152e4fbd86d3345a3c7fe, type: 2}
+    typeFood: 1
+  - evolutionNode: {fileID: 11400000, guid: a3631f7686861074f91a6fb82ebeaaae, type: 2}
+    typeFood: 2
+  - evolutionNode: {fileID: 11400000, guid: b1ba42ba5cc8e564ebc7f78b90397608, type: 2}
+    typeFood: 3
+  - evolutionNode: {fileID: 11400000, guid: 351badf7da72a624597b2257c20edadd, type: 2}
+    typeFood: 5

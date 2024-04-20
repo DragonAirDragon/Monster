@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fb04b867cf4aa4ab3eb6db9c9be6ed, type: 3}
+  m_Name: TheDevilSpider
+  m_EditorClassIdentifier: 
+  name: "\u0414\u044C\u044F\u0432\u043E\u043B\u044C\u0441\u043A\u0438\u0439 \u041F\u0430\u0443\u043A"
+  damage: 0
+  possibleEvolutions:
+  - evolutionNode: {fileID: 11400000, guid: 7e5f3aa4b66be7740b6c6a36a249dbf0, type: 2}
+    typeFood: 3
+  - evolutionNode: {fileID: 11400000, guid: 648b7d39dd88d5f4191bf599ac713ac2, type: 2}
+    typeFood: 4
